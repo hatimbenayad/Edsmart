@@ -1,0 +1,129 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "tiny",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 384,
+			"head": 6,
+			"layer": 4
+		},
+		"text": {
+			"ctx": 448,
+			"state": 384,
+			"head": 6,
+			"layer": 4
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "C:\\Users\\hatim\\AppData\\Local\\cutline\\models\\ggml-tiny.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3000
+			},
+			"text": " (phone ringing)",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50364,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": " (",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,210"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 210
+					},
+					"id": 522,
+					"p": 0.820486,
+					"t_dtw": -1
+				},
+				{
+					"text": "phone",
+					"timestamps": {
+						"from": "00:00:00,210",
+						"to": "00:00:01,270"
+					},
+					"offsets": {
+						"from": 210,
+						"to": 1270
+					},
+					"id": 4977,
+					"p": 0.422479,
+					"t_dtw": -1
+				},
+				{
+					"text": " ringing",
+					"timestamps": {
+						"from": "00:00:01,270",
+						"to": "00:00:02,770"
+					},
+					"offsets": {
+						"from": 1270,
+						"to": 2770
+					},
+					"id": 18423,
+					"p": 0.997649,
+					"t_dtw": -1
+				},
+				{
+					"text": ")",
+					"timestamps": {
+						"from": "00:00:02,770",
+						"to": "00:00:03,000"
+					},
+					"offsets": {
+						"from": 2770,
+						"to": 3000
+					},
+					"id": 8,
+					"p": 1,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_150]",
+					"timestamps": {
+						"from": "00:00:03,000",
+						"to": "00:00:03,000"
+					},
+					"offsets": {
+						"from": 3000,
+						"to": 3000
+					},
+					"id": 50514,
+					"p": 0.943867,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

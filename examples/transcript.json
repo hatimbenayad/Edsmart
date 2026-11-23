@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "language": "en",
+  "word_count": 4,
+  "words": [
+    {
+      "text": "(",
+      "start_frame": 0,
+      "end_frame": 6,
+      "start_ms": 0,
+      "end_ms": 210,
+      "confidence": 0.820486
+    },
+    {
+      "text": "phone",
+      "start_frame": 6,
+      "end_frame": 38,
+      "start_ms": 210,
+      "end_ms": 1270,
+      "confidence": 0.422479
+    },
+    {
+      "text": "ringing",
+      "start_frame": 38,
+      "end_frame": 83,
+      "start_ms": 1270,
+      "end_ms": 2770,
+      "confidence": 0.997649
+    },
+    {
+      "text": ")",
+      "start_frame": 83,
+      "end_frame": 90,
+      "start_ms": 2770,
+      "end_ms": 3000,
+      "confidence": 1.0
+    }
+  ]
+}

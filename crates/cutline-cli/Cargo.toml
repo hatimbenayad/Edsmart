@@ -1,0 +1,29 @@
+[package]
+name = "cutline-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "cutline_cli"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cutline"
+path = "src/main.rs"
+
+[dependencies]
+cutline-core = { path = "../cutline-core" }
+cutline-media = { path = "../cutline-media" }
+cutline-stt = { path = "../cutline-stt" }
+cutline-analysis = { path = "../cutline-analysis" }
+cutline-render = { path = "../cutline-render" }
+cutline-assets = { path = "../cutline-assets" }
+cutline-lint = { path = "../cutline-lint" }
+serde.workspace = true
+serde_json.workspace = true
+schemars.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+clap.workspace = true

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "language": "en",
+  "word_count": 6,
+  "words": [
+    {
+      "text": "[",
+      "start_frame": 0,
+      "end_frame": 43,
+      "start_ms": 0,
+      "end_ms": 1440,
+      "confidence": 0.943234
+    },
+    {
+      "text": "Music",
+      "start_frame": 92,
+      "end_frame": 257,
+      "start_ms": 3060,
+      "end_ms": 8570,
+      "confidence": 0.985128
+    },
+    {
+      "text": "]",
+      "start_frame": 257,
+      "end_frame": 300,
+      "start_ms": 8570,
+      "end_ms": 10000,
+      "confidence": 1.0
+    },
+    {
+      "text": "[",
+      "start_frame": 915,
+      "end_frame": 918,
+      "start_ms": 30500,
+      "end_ms": 30600,
+      "confidence": 1.0
+    },
+    {
+      "text": "Music",
+      "start_frame": 915,
+      "end_frame": 918,
+      "start_ms": 30500,
+      "end_ms": 30600,
+      "confidence": 1.0
+    },
+    {
+      "text": "]",
+      "start_frame": 915,
+      "end_frame": 960,
+      "start_ms": 30500,
+      "end_ms": 32000,
+      "confidence": 1.0
+    }
+  ]
+}

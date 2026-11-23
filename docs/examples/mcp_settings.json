@@ -1,0 +1,12 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/config.json",
+  "mcpServers": {
+    "cutline": {
+      "command": "target/release/cutline.exe",
+      "args": ["mcp"],
+      "env": {
+        "RUST_LOG": "info"
+      }
+    }
+  }
+}

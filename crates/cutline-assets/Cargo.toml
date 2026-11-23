@@ -1,0 +1,16 @@
+[package]
+name = "cutline-assets"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cutline-core = { path = "../cutline-core" }
+tiny-skia.workspace = true
+fontdue.workspace = true
+resvg.workspace = true
+usvg.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true

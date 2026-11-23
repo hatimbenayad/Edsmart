@@ -1,0 +1,48 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+*.pdb
+
+# Video files (raw footage, renders, cuts)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+
+# Audio files (extracted tracks, temporary speech audio)
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.flac
+
+# Image files (raster images, frames, contact strips)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.ico
+*.tiff
+
+# Preview directories
+previews/
+previews_*/
+previews_recipe/
+previews_test1/
+
+# Operating system & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Log files
+*.log

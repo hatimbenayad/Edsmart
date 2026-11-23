@@ -1,0 +1,37 @@
+[workspace]
+members = [
+    "crates/cutline-core",
+    "crates/cutline-media",
+    "crates/cutline-stt",
+    "crates/cutline-analysis",
+    "crates/cutline-render",
+    "crates/cutline-assets",
+    "crates/cutline-lint",
+    "crates/cutline-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Cutline Engine Contributors"]
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+schemars = "0.8"
+thiserror = "2.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+clap = { version = "4.5", features = ["derive"] }
+which = "7.0"
+hound = "3.5"
+dirs = "6.0"
+ureq = { version = "2.10", features = ["tls"] }
+rayon = "1.10"
+crossbeam-channel = "0.5"
+tiny-skia = "0.11"
+fontdue = "0.9"
+resvg = "0.44"
+usvg = "0.44"
